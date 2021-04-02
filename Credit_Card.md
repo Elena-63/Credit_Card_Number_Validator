@@ -17,29 +17,41 @@
 * [Домашнее задание к занятию «1.1. Введение в Java: JDK, JRE, JVM, IntelliJ IDEA»](https://github.com/netology-code/javaqa-homeworks/tree/master/intro)
 * [Установка IntelliJ IDEA](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/idea.md)
 
-*В качестве тестовых данных использовались валидные и невалидные номера карт, валидные сгенерированы на сайте https://www.freeformatter.com/credit-card-number-generator-validator.html
+* В качестве тестовых данных использовались валидные и невалидные номера карт, валидные сгенерированы на сайте https://www.freeformatter.com/credit-card-number-generator-validator.html
 
-*Валидные номера карт: VISA:
+Валидные номера карт: 
+  
+VISA:
 
-*4916905842540093 - ожидаемый результат - Result is OK
-*4556886165353626 - ожидаемый результат - Result is OK
+* 4916905842540093 - ожидаемый результат - Result is OK
+* 4556886165353626 - ожидаемый результат - Result is OK
+* 4485343747959205932  - ожидаемый результат - Result is OK
+  
+MasterCard:
 
-*MasterCard:
+* 2221006029356025 - ожидаемый результат - Result is OK
+* 2720991467197583 - ожидаемый результат - Result is OK
+* 2720991122299360 - ожидаемый результат - Result is OK
 
-*2221006029356025 - ожидаемый результат - Result is OK
-*2720991467197583 - ожидаемый результат - Result is OK
+Diners Club - International
 
-*Maestro:
+* 36079718588553 - ожидаемый результат - Result is OK
+* 36124737891933 - ожидаемый результат - Result is OK
+* 36225100989731 - ожидаемый результат - Result is OK
 
-*6762796859390153 - ожидаемый результат - Result is OK
-*6763347368114434 - ожидаемый результат - Result is OK
+Maestro:
 
-*Невалидные номера карт:
+* 6762796859390153 - ожидаемый результат - Result is OK
+* 6763347368114434 - ожидаемый результат - Result is OK
+* 6762564260014113 - ожидаемый результат - Result is OK
 
-*4485343747959205932 - ожидаемый результат - Result is FAIL.
-*6011573705352231056 - ожидаемый результат - Result is FAIL.
+Невалидные номера карт:
 
-*Тестирование производилось в следующем окружении:      
+* 0000000000000000 - ожидаемый результат - Result is FAIL.
+* 1234567890123456 - ожидаемый результат - Result is FAIL.
+* 9999999999999999 - ожидаемый результат - Result is FAIL.
 
-*Windows 10 Home 64 bit
-*версия Java 11.0.10
+## Тестирование производилось в следующем окружении:      
+
+* Windows 10 Home 64 bit
+* версия Java 11.0.10
